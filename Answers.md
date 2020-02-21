@@ -19,4 +19,4 @@ Props get passed to the component (similar to function parameters)
 
 5. What are side effects, and how do you sync effects in a React component to state or prop changes?
 
-A "side effect" is anything that affects something outside the scope of the function being executed. These can be, say, a network request, which has your code communicating with a third party (and thus making the request, causing logs to be recorded, caches to be saved or updated, all sorts of effects that are outside the function.
+A "side effect" is anything that affects something outside the scope of the function being executed. These can be, say, a network request, which has your code communicating with a third party (and thus making the request, causing logs to be recorded, caches to be saved or updated, all sorts of effects that are outside the function. Data fetching, setting up a subscription, and manually changing the DOM in React components are all examples of side effects. The Effect Hook lets you perform side effects in function components.
