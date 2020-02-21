@@ -21,6 +21,7 @@ const BorderAroundSpecies = styled.div `
 const Name = styled.h1 `
     font-size: 200%;
     padding: 5%;
+    background-color: black;
     `
 
 const LeftSide = styled.div `
