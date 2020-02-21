@@ -28,6 +28,8 @@ export default function CharacterList() {
             gender={character.gender}
             species={character.species[0]}
             homeworld={character.homeworld}
+            eyecolor={character.eye_color}
+            skincolor={character.skin_color}
           />
         );
       })}
