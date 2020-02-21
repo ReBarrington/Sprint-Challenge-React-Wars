@@ -3,7 +3,7 @@ import Specs from "./Specs";
 import styled from "styled-components";
 
 const BorderAroundCard = styled.div `
-  border: 10px solid black;
+  border: 10px solid #FFE91B;
   margin: 2%;
   display: flex;
   justify-content: space-evenly;
@@ -12,7 +12,7 @@ const BorderAroundCard = styled.div `
   `
 
 const BorderAroundSpecies = styled.div `
-    border: 5px solid black;
+    border: 5px solid #FFE91B;
     padding: 5%;
     margin: 2%;
     background-color: white;

@@ -5,7 +5,8 @@ import './App.css';
 
 const HeaderImg = styled.img `
   width: 70%;
-  padding: 10%;
+  margin: 10%;
+  border: 10px solid #FFE91B;
   `
 
 

@@ -2,7 +2,6 @@ import React from "react";
 
 
 const Specs = props => {
-
 console.log (props, " is props in Eyecolor");
 
     return (
