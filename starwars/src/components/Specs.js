@@ -9,6 +9,8 @@ console.log (props, " is props in Eyecolor");
         <div>
             <p>Eye Color: {props.eyecolor}</p>
             <p>Skin Color: {props.skincolor}</p>
+            <p>Height: {props.height}</p>
+            <p>Mass: {props.mass}</p>
         </div>
     );
 

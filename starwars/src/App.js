@@ -1,6 +1,13 @@
 import React from 'react';
 import CharacterList from "./components/CharacterList";
+import styled from "styled-components";
 import './App.css';
+
+const HeaderImg = styled.img `
+  width: 70%;
+  padding: 10%;
+  `
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -12,6 +19,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <HeaderImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1388px-Star_Wars_Logo.svg.png"></HeaderImg>
       <h1 className="Header">React Wars</h1>
       <CharacterList/>
     </div>
