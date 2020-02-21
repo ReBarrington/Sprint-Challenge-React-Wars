@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 const BorderAroundCard = styled.div `
   border: 10px solid #FFE91B;
+  color: #FFE91B;
   margin: 2%;
   display: flex;
   justify-content: space-evenly;
@@ -15,7 +16,7 @@ const BorderAroundSpecies = styled.div `
     border: 5px solid #FFE91B;
     padding: 5%;
     margin: 2%;
-    background-color: white;
+    background-color: #443E3E;
     `
 const Name = styled.h1 `
     font-size: 200%;

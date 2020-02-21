@@ -9,6 +9,11 @@ const HeaderImg = styled.img `
   border: 10px solid #FFE91B;
   `
 
+  const ReactWars = styled.h1 `
+    background: white;
+    padding: 2%;
+    `
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -21,7 +26,7 @@ const App = () => {
   return (
     <div className="App">
       <HeaderImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1388px-Star_Wars_Logo.svg.png"></HeaderImg>
-      <h1 className="Header">React Wars</h1>
+      <ReactWars className="Header">React Wars</ReactWars>
       <CharacterList/>
     </div>
   );
