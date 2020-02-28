@@ -2,6 +2,7 @@ import React from 'react';
 import CharacterList from "./components/CharacterList";
 import styled from "styled-components";
 import './App.css';
+import SearchBar from './components/SearchBar';
 
 const HeaderImg = styled.img `
   width: 70%;
