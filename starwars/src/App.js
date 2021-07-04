@@ -1,5 +1,20 @@
 import React from 'react';
+import CharacterList from "./components/CharacterList";
+import styled from "styled-components";
 import './App.css';
+import SearchBar from './components/SearchBar';
+
+const HeaderImg = styled.img `
+  width: 70%;
+  margin: 10%;
+  border: 10px solid #FFE91B;
+  `
+
+  const ReactWars = styled.h1 `
+    background: white;
+    padding: 2%;
+    `
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -11,7 +26,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">React Wars</h1>
+      <HeaderImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1388px-Star_Wars_Logo.svg.png"></HeaderImg>
+      <ReactWars className="Header">React Wars</ReactWars>
+      <CharacterList/>
     </div>
   );
 }
